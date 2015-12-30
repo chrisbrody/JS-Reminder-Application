@@ -1,0 +1,49 @@
+@media (max-width: 500px) {
+	html, body {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	/*header*/
+	section#header {
+		padding: 3%;
+		background-color: red;
+		height: 7%;
+	}
+	#header div:first-child {
+		float: left;
+	}
+	#header div:last-child {
+		float: right;
+	}
+
+	/*current reminders*/
+	section#currentReminders {
+		padding: 1%;
+		background-color: blue;
+		height: 84%;
+	}
+
+
+	/*completed reminders*/
+	section#completeReminders {
+		padding: 1%;
+		height: 3%;
+		text-align: center;
+	}
+	#completeReminders a {
+		text-decoration: none;
+	}
+}
+
+
+@media (max-width: 500px) {
+	section#currentReminders {
+		height: 87%;
+	}
+}
+
+input[type="checkbox"] {
+	
+}
